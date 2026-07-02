@@ -1,0 +1,90 @@
+﻿@model SmartHospitalSystem.Service.ViewModels.DoctorCreateViewModel
+
+@{
+    ViewData["Title"] = "تعديل بيانات طبيب";
+}
+
+<div class="container mt-4 animate__animated animate__fadeIn" dir="rtl">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow border-0 rounded-4">
+                <div class="card-body p-5">
+                    <div class="text-center mb-5">
+                        <div class="bg-info bg-opacity-10 text-info d-inline-flex align-items-center justify-content-center rounded-circle p-3 mb-3 shadow-sm">
+                            <i class="bi bi-pencil-square fs-1"></i>
+                        </div>
+                        <h3 class="fw-bold text-dark">تعديل ملف طبيب بالمنظومة</h3>
+                        <p class="text-muted">قم بتحديث بيانات الاتصال أو التخصص للطبيب واضغط حفظ لتعديل البيانات فوراً</p>
+                    </div>
+
+                    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <label asp-for="FirstName" class="form-label fw-bold text-secondary"><i class="bi bi-person me-1"></i> الاسم الأول</label>
+                                <input asp-for="FirstName" class="form-control form-control-lg border-2" required />
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="LastName" class="form-label fw-bold text-secondary"><i class="bi bi-person me-1"></i> الاسم الأخير</label>
+                                <input asp-for="LastName" class="form-control form-control-lg border-2" required />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="Specialization" class="form-label fw-bold text-secondary"><i class="bi bi-patch-check me-1"></i> التخصص الطبي</label>
+                                <input asp-for="Specialization" class="form-control form-control-lg border-2" required />
+                                <span asp-validation-for="Specialization" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="DepartmentId" class="form-label fw-bold text-secondary"><i class="bi bi-building me-1"></i> القسم الطبي التابع له</label>
+                                <select asp-for="DepartmentId" class="form-select form-select-lg border-2 fw-bold text-info" asp-items="ViewBag.Departments" required>
+                                    <option value="">-- حدد تخصص القسم --</option>
+                                </select>
+                                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="PhoneNumber" class="form-label fw-bold text-secondary"><i class="bi bi-telephone me-1"></i> رقم الهاتف الشخصي</label>
+                                <input asp-for="PhoneNumber" class="form-control form-control-lg border-2" required />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="NationalId" class="form-label fw-bold text-secondary"><i class="bi bi-card-text me-1"></i> الرقم القومي (ثابت)</label>
+                                <input asp-for="NationalId" class="form-control form-control-lg border-2 font-monospace bg-light" readonly />
+                            </div>
+
+                            <div class="col-12">
+                                <label asp-for="Email" class="form-label fw-bold text-secondary"><i class="bi bi-envelope me-1"></i> البريد الإلكتروني الرسمي</label>
+                                <input asp-for="Email" type="email" class="form-control form-control-lg border-2" required />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            <!-- حقل رفع صورة جديدة من الجهاز لتغيير القديمة -->
+                            <div class="col-12">
+                                <label class="form-label fw-bold text-secondary"><i class="bi bi-image me-1"></i> تغيير صورة الطبيب الشخصية</label>
+                                <input type="file" name="imageFile" class="form-control form-control-lg border-2" accept="image/*" />
+                                <small class="text-muted">اختر ملفاً جديداً فقط إذا كنت تريد استبدال الصورة الحالية</small>
+                            </div>
+
+                            <div class="col-12">
+                                <label asp-for="Biography" class="form-label fw-bold text-secondary"><i class="bi bi-file-earmark-medical me-1"></i> النبذة المهنية والسيرة الذاتية</label>
+                                <textarea asp-for="Biography" class="form-control border-2" rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 justify-content-end mt-5">
+                            <a asp-action="Index" class="btn btn-light btn-lg px-4 fw-bold border">إلغاء</a>
+                            <button type="submit" class="btn btn-info btn-lg px-5 fw-bold text-dark shadow-sm">حفظ التغييرات</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

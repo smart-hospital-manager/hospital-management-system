@@ -1,0 +1,17 @@
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\bin\Debug\net8.0\SmartHospitalSystem.Data.deps.json
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\bin\Debug\net8.0\SmartHospitalSystem.Data.runtimeconfig.json
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\bin\Debug\net8.0\SmartHospitalSystem.Data.dll
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\bin\Debug\net8.0\SmartHospitalSystem.Data.pdb
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\bin\Debug\net8.0\SmartHospitalSystem.Core.dll
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\bin\Debug\net8.0\SmartHospitalSystem.Core.pdb
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHospitalSystem.Data.csproj.AssemblyReference.cache
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHospitalSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHospitalSystem.Data.AssemblyInfoInputs.cache
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHospitalSystem.Data.AssemblyInfo.cs
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHospitalSystem.Data.csproj.CoreCompileInputs.cache
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHos.C16A1F70.Up2Date
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHospitalSystem.Data.dll
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\refint\SmartHospitalSystem.Data.dll
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHospitalSystem.Data.pdb
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\SmartHospitalSystem.Data.genruntimeconfig.cache
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Data\obj\Debug\net8.0\ref\SmartHospitalSystem.Data.dll

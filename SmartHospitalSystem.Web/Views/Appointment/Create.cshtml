@@ -1,0 +1,72 @@
+﻿@model SmartHospitalSystem.Service.ViewModels.AppointmentCreateViewModel
+
+@{
+    ViewData["Title"] = "حجز موعد";
+}
+
+<div class="container mt-5 mb-5 animate__animated animate__fadeIn">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="sh-card">
+                <div class="p-4 p-md-5">
+                    <div class="text-center mb-4">
+                        <div class="sh-page-icon mx-auto mb-2" style="width:64px;height:64px;font-size:1.8rem; background:rgba(240,169,59,0.15); color:var(--sh-warning);">
+                            <i class="bi bi-calendar2-heart fs-1"></i>
+                        </div>
+                        <h3 class="fw-bold text-dark">تخصيص وحجز موعد عيادة</h3>
+                        <p class="text-muted">جدولة الموعد الطبي للمريض وربطه بالطبيب المتخصص داخل المنظومة</p>
+                    </div>
+
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <label asp-for="PatientId" class="form-label fw-bold text-secondary"><i class="bi bi-person-fill text-primary me-1"></i> المريض المحجوز له</label>
+                                <select asp-for="PatientId" class="form-select form-select-lg border-2 fw-bold text-dark" asp-items="ViewBag.Patients" required>
+                                    <option value="">اختر المريض...</option>
+                                </select>
+                                <span asp-validation-for="PatientId" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="DoctorId" class="form-label fw-bold text-secondary"><i class="bi bi-heart-pulse-fill text-success me-1"></i> الطبيب المعالج المختص</label>
+                                <select asp-for="DoctorId" class="form-select form-select-lg border-2 fw-bold text-dark" asp-items="ViewBag.Doctors" required>
+                                    <option value="">اختر الطبيب المعالج...</option>
+                                </select>
+                                <span asp-validation-for="DoctorId" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="DepartmentId" class="form-label fw-bold text-secondary"><i class="bi bi-building-fill text-secondary me-1"></i> القسم الطبي المشرف</label>
+                                <select asp-for="DepartmentId" class="form-select form-select-lg border-2 text-muted" asp-items="ViewBag.Departments" required>
+                                    <option value="">اختر التخصص الطبي...</option>
+                                </select>
+                                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="AppointmentDate" class="form-label fw-bold text-secondary"><i class="bi bi-calendar-event me-1"></i> تاريخ ووقت الحجز الدقيق</label>
+                                <input asp-for="AppointmentDate" type="datetime-local" class="form-control form-control-lg border-2 fw-bold" required />
+                                <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-12">
+                                <label asp-for="ReasonForVisit" class="form-label fw-bold text-secondary"><i class="bi bi-chat-left-text me-1"></i> سبب الزيارة / شكوى المريض المبدئية</label>
+                                <textarea asp-for="ReasonForVisit" class="form-control border-2" rows="4" placeholder="اكتب التشخيص المبدئي للحجز أو الغرض من مراجعة الطبيب..." required></textarea>
+                                <span asp-validation-for="ReasonForVisit" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 justify-content-end mt-5">
+                            <a asp-action="Index" class="btn btn-light btn-lg px-4 fw-bold border">إلغاء الموعد</a>
+                            <button type="submit" class="btn sh-btn-solid btn-lg px-5">تأكيد وإدراج الموعد</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "تسجيل الدخول";
+}
+
+<style>
+    /* تنسيقات مخصصة لتجربة دخول احترافية تماماً */
+    .login-container {
+        min-height: 80vh;
+        background: #ffffff;
+        border-radius: 24px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    }
+
+    .login-brand-side {
+        background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem;
+        position: relative;
+    }
+
+        .login-brand-side::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80') center/cover no-repeat;
+            opacity: 0.15; /* صورة خلفية طبية مدمجة بنعومة */
+        }
+
+    .form-inputs-custom .form-control {
+        border: 2px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 0.75rem 1rem;
+        transition: all 0.3s ease;
+    }
+
+        .form-inputs-custom .form-control:focus {
+            border-color: #4fd1c5;
+            box-shadow: 0 0 0 4px rgba(79, 209, 197, 0.15);
+        }
+
+    .input-icon-group {
+        position: relative;
+    }
+
+        .input-icon-group i {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            color: #a0aec0;
+        }
+
+    .form-inputs-custom input {
+        padding-left: 45px !important; /* مسافة للأيقونة على الشمال */
+    }
+</style>
+
+<div class="container mt-4 mb-5" dir="rtl">
+    <div class="row login-container g-0">
+
+        <!-- 🎨 الجانب الأيسر (البنر الترحيبي والصورة الطبية) -->
+        <div class="col-lg-6 login-brand-side text-center text-lg-start d-none d-lg-flex">
+            <div class="position-relative z-1 p-4 w-100 text-center">
+                <i class="bi bi-heart-pulse-fill text-info display-1 mb-4"></i>
+                <h2 class="fw-bold mb-3">مستشفى Smart Hospital الذكي</h2>
+                <p class="text-white-50 lead mb-0">مرحباً بك مجدداً في البوابة الرقمية المتكاملة لإدارة الرعاية الطبية وحجوزات العيادات.</p>
+            </div>
+        </div>
+
+        <!-- 🔑 الجانب الأيمن (الفورم الاحترافية) -->
+        <div class="col-lg-6 d-flex align-items-center bg-white p-4 p-md-5">
+            <div class="w-100 py-3">
+                <div class="mb-4 text-center text-lg-start">
+                    <h3 class="fw-bold text-dark mb-2">🔐 تسجيل الدخول</h3>
+                    <p class="text-muted small">الرجاء إدخال بيانات الاعتماد الخاصة بك للوصول للمنظومة</p>
+                </div>
+
+                <form asp-action="Login" method="post" class="form-inputs-custom">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <!-- البريد الإلكتروني -->
+                    <div class="mb-4">
+                        <label class="form-label fw-bold text-secondary">البريد الإلكتروني للعمل</label>
+                        <div class="input-icon-group">
+                            <input type="email" name="email" class="form-control" placeholder="name@smarthospital.com" required />
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                    </div>
+
+                    <!-- كلمة المرور -->
+                    <div class="mb-4">
+                        <label class="form-label fw-bold text-secondary">كلمة المرور</label>
+                        <div class="input-icon-group">
+                            <input type="password" name="password" class="form-control" placeholder="••••••" required />
+                            <i class="bi bi-lock-fill"></i>
+                        </div>
+                    </div>
+
+                    <!-- زر الدخول -->
+                    <div class="d-grid mt-4">
+                        <button type="submit" class="btn btn-info btn-lg fw-bold text-dark py-3 rounded-3 shadow-sm transition-all">
+                            دخول آمن للمنظومة <i class="bi bi-arrow-left-short ms-1"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="text-center mt-4">
+                    <span class="text-muted small">ليس لديك حساب بعد؟</span>
+                    <a asp-action="Register" class="text-primary fw-bold small text-decoration-none ms-1">إنشاء حساب جديد</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

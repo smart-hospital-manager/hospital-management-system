@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0921C0-9EC6-447E-BC9B-888E4A225C36}|SmartHospitalSystem.Service\\SmartHospitalSystem.Service.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.service\\viewmodels\\doctorviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0921C0-9EC6-447E-BC9B-888E4A225C36}|SmartHospitalSystem.Service\\SmartHospitalSystem.Service.csproj|solutionrelative:smarthospitalsystem.service\\viewmodels\\doctorviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\doctor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\doctor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\doctor\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\doctor\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|d:\\download_d\\smarthospitalsystem_ui_updated\\smarthospitalsystem\\smarthospitalsystem.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF4A5244-E149-450F-9178-49C56B1F4B13}|SmartHospitalSystem.Web\\SmartHospitalSystem.Web.csproj|solutionrelative:smarthospitalsystem.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorViewModels.cs",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Service\\ViewModels\\DoctorViewModels.cs",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Service\\ViewModels\\DoctorViewModels.cs",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Service\\ViewModels\\DoctorViewModels.cs",
+              "RelativeToolTip": "SmartHospitalSystem.Service\\ViewModels\\DoctorViewModels.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T11:49:25.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Doctor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Doctor\\Edit.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Doctor\\Edit.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Doctor\\Edit.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:35:00.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T11:33:59.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Doctor\\Create.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Doctor\\Create.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Doctor\\Create.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Doctor\\Create.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwFIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:27:02.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAswKwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T11:25:52.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Doctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Doctor\\Index.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Doctor\\Index.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Doctor\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:15:38.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T11:29:47.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Patient\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Patient\\Index.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Patient\\Index.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Patient\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswFIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:16:20.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Appointments.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Doctor\\Appointments.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Doctor\\Appointments.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Doctor\\Appointments.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Doctor\\Appointments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:28:15.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:37:55.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Patient\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Patient\\Edit.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Patient\\Edit.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Patient\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:31:18.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwK0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:18:25.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Appointment\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Appointment\\Index.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Appointment\\Index.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Appointment\\Index.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwH4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:17:17.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwIEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:14:47.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SmartHospitalSystem.Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\download_d\\SmartHospitalSystem_UI_Updated\\SmartHospitalSystem\\SmartHospitalSystem.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SmartHospitalSystem.Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T11:13:29.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

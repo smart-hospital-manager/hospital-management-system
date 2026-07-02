@@ -1,0 +1,48 @@
+﻿@model SmartHospitalSystem.Service.ViewModels.DepartmentCreateViewModel
+
+@{
+    ViewData["Title"] = "إضافة قسم جديد";
+}
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <div class="sh-card p-4 p-md-5 animate__animated animate__fadeIn">
+                <div class="text-center mb-4">
+                    <div class="sh-page-icon mx-auto mb-2" style="width:64px;height:64px;font-size:1.8rem;">
+                        <i class="bi bi-building-add"></i>
+                    </div>
+                    <h3 class="fw-bold">نموذج إضافة قسم طبي</h3>
+                    <p class="text-muted">أضف قسماً طبياً جديداً إلى الهيكل التنظيمي للمستشفى</p>
+                </div>
+
+                <form asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label"><i class="bi bi-building me-1"></i> اسم القسم</label>
+                        <input asp-for="Name" class="form-control" placeholder="مثال: الباطنة، الجراحة، الأطفال..." />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label"><i class="bi bi-card-text me-1"></i> الوصف والتفاصيل</label>
+                        <textarea asp-for="Description" class="form-control" rows="4" placeholder="اكتب نبذة مختصرة عن مهام وتخصص القسم..."></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-flex gap-3 justify-content-end mt-4">
+                        <a asp-action="Index" class="btn btn-light btn-lg px-4 fw-bold border">إلغاء</a>
+                        <button type="submit" class="btn sh-btn-solid btn-lg px-5">
+                            <i class="bi bi-check-circle-fill me-1"></i> حفظ القسم
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,174 @@
+﻿@{
+    ViewData["Title"] = "لوحة التحكم الرئيسية";
+}
+
+<style>
+    /* بنر ترحيبي فاخر متناسق مع كحلي الـ Navbar */
+    .dashboard-hero {
+        background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%);
+        color: white;
+        border-radius: 24px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(26, 54, 93, 0.05);
+    }
+
+    .hero-hospital-img {
+        border-radius: 16px;
+        object-fit: cover;
+        box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        transition: transform 0.4s ease;
+    }
+
+        .hero-hospital-img:hover {
+            transform: scale(1.03);
+        }
+    /* كروت المؤشرات الحية */
+    .indicator-card {
+        border: none;
+        border-radius: 20px;
+        background: #ffffff;
+        transition: all 0.3s ease;
+    }
+
+        .indicator-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.05) !important;
+        }
+
+    .indicator-icon-box {
+        width: 60px;
+        height: 60px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+    }
+</style>
+
+<div class="container mt-2" dir="rtl">
+
+    <!-- 1️⃣ البنر الترحيبي الرئيسي والتقني للمستشفى -->
+    <div class="dashboard-hero p-5 mb-5 animate__animated animate__fadeIn">
+        <div class="row align-items-center">
+            <div class="col-lg-7 text-center text-lg-start mb-4 mb-lg-0">
+                <span class="badge bg-cyan bg-opacity-20 text-info fw-bold px-3 py-2 mb-3 border border-info border-opacity-25">النظام الرقمي الموحد لادارة الرعاية الصحية</span>
+                <h1 class="display-5 fw-bold mb-3">منظومة Smart Hospital الذكية</h1>
+                <p class="lead text-white-50 mb-4">بوابتك التكنولوجية المتكاملة لمتابعة سير العمل بالعيادات الطبية، أرشفة سجلات المرضى الرقمية، وتأمين حجوزات الطاقم الطبي والاستشاريين بدقة وسرعة فائقة.</p>
+                <div class="d-sm-flex gap-3 justify-content-lg-start justify-content-center">
+                    <a asp-controller="Appointment" asp-action="Create" class="btn btn-info btn-lg fw-bold text-dark px-4 py-2 rounded-3 shadow">
+                        <i class="bi bi-calendar-plus-fill me-1"></i> حجز تذكرة موعد
+                    </a>
+                    <a asp-controller="Patient" asp-action="Create" class="btn btn-outline-light btn-lg fw-bold px-4 py-2 rounded-3">
+                        <i class="bi bi-person-plus-fill me-1"></i> تسجيل مريض جديد
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5 text-center">
+                <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80" class="img-fluid hero-hospital-img animate__animated animate__zoomIn" alt="Medical Staff Dashboard">
+            </div>
+        </div>
+    </div>
+
+    <!-- 2️⃣ المؤشرات الإحصائية الحية (Live Indicators) -->
+    <h5 class="fw-bold text-dark mb-4"><i class="bi bi-activity text-primary me-2"></i> الحالة العامة للمنظومة الآن</h5>
+    <div class="row g-4 mb-5 animate__animated animate__fadeInUp">
+
+        <!-- كارت الأطباء -->
+        <div class="col-md-4">
+            <div class="card indicator-card shadow-sm border-start border-info border-5 p-3">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <div>
+                        <small class="text-muted fw-bold d-block mb-1">الكادر الطبي النشط</small>
+                        <h2 class="fw-bold text-dark m-0">@ViewBag.DoctorsCount</h2>
+                    </div>
+                    <div class="indicator-icon-box text-info bg-info bg-opacity-10">
+                        <i class="bi bi-heart-pulse-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- كارت المرضى -->
+        <div class="col-md-4">
+            <div class="card indicator-card shadow-sm border-start border-primary border-5 p-3">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <div>
+                        <small class="text-muted fw-bold d-block mb-1">إجمالي سجلات المرضى</small>
+                        <h2 class="fw-bold text-dark m-0">@ViewBag.PatientsCount</h2>
+                    </div>
+                    <div class="indicator-icon-box text-primary bg-primary bg-opacity-10">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- كارت المواعيد -->
+        <div class="col-md-4">
+            <div class="card indicator-card shadow-sm border-start border-warning border-5 p-3">
+                <div class="card-body d-flex align-items-center justify-content-between">
+                    <div>
+                        <small class="text-muted fw-bold d-block mb-1">تذاكر المواعيد المحجوزة</small>
+                        <h2 class="fw-bold text-dark m-0">@ViewBag.AppointmentsCount</h2>
+                    </div>
+                    <div class="indicator-icon-box text-warning bg-warning bg-opacity-10">
+                        <i class="bi bi-calendar-check-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 3️⃣ أقسام المستشفى والوصول السريع التفاعلي -->
+    <h5 class="fw-bold text-dark mb-4"><i class="bi bi-grid-fill text-primary me-2"></i> اختصارات الإدارة والوصول السريع</h5>
+    <div class="row g-4 text-center animate__animated animate__fadeInUp">
+
+        <div class="col-md-3">
+            <div class="card h-100 border-0 shadow-sm p-3 indicator-card">
+                <div class="card-body d-flex flex-column h-100">
+                    <div class="indicator-icon-box text-primary bg-primary bg-opacity-10 mx-auto mb-3"><i class="bi bi-building"></i></div>
+                    <h5 class="fw-bold text-dark mb-2">الأقسام الطبية</h5>
+                    <p class="text-muted small mb-4">هيكلة تخصصات العيادات الخارجية والداخلية للمستشفى.</p>
+                    <a asp-controller="Department" asp-action="Index" class="btn btn-sm btn-outline-primary rounded-3 mt-auto w-100 py-2 fw-bold">لوحة الأقسام</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card h-100 border-0 shadow-sm p-3 indicator-card">
+                <div class="card-body d-flex flex-column h-100">
+                    <div class="indicator-icon-box text-info bg-info bg-opacity-10 mx-auto mb-3"><i class="bi bi-telephone-plus"></i></div>
+                    <h5 class="fw-bold text-dark mb-2">الملفات الشخصية للأطباء</h5>
+                    <p class="text-muted small mb-4">تنظيم السير الذاتية وتخصصات الطاقم الاستشاري المعالج.</p>
+                    <a asp-controller="Doctor" asp-action="Index" class="btn btn-sm btn-outline-info text-dark rounded-3 mt-auto w-100 py-2 fw-bold">عرض الأطباء</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card h-100 border-0 shadow-sm p-3 indicator-card">
+                <div class="card-body d-flex flex-column h-100">
+                    <div class="indicator-icon-box text-success bg-success bg-opacity-10 mx-auto mb-3"><i class="bi bi-shield-check"></i></div>
+                    <h5 class="fw-bold text-dark mb-2">قاعدة بيانات المرضى</h5>
+                    <p class="text-muted small mb-4">ملفات الهوية الطبية الرقمية وفصائل الدم المؤمنة للمرضى.</p>
+                    <a asp-controller="Patient" asp-action="Index" class="btn btn-sm btn-outline-success rounded-3 mt-auto w-100 py-2 fw-bold">سجل المرضى</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card h-100 border-0 shadow-sm p-3 indicator-card">
+                <div class="card-body d-flex flex-column h-100">
+                    <div class="indicator-icon-box text-warning bg-warning bg-opacity-10 mx-auto mb-3"><i class="bi bi-alarm"></i></div>
+                    <h5 class="fw-bold text-dark mb-2">تذاكر الحجز والعيادات</h5>
+                    <p class="text-muted small mb-4">إدارة فترات الحجز وتوقيتات الكشف لمرضى العيادات.</p>
+                    <a asp-controller="Appointment" asp-action="Index" class="btn btn-sm btn-outline-warning text-dark rounded-3 mt-auto w-100 py-2 fw-bold">جدول المواعيد</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

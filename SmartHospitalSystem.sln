@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHospitalSystem.Core", "SmartHospitalSystem.Core\SmartHospitalSystem.Core.csproj", "{5AE41BE8-794C-40CD-8002-C35FFB2D62CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHospitalSystem.Data", "SmartHospitalSystem.Data\SmartHospitalSystem.Data.csproj", "{1713AE89-BA37-4874-AB84-431309DECEDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHospitalSystem.Service", "SmartHospitalSystem.Service\SmartHospitalSystem.Service.csproj", "{6E0921C0-9EC6-447E-BC9B-888E4A225C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHospitalSystem.Web", "SmartHospitalSystem.Web\SmartHospitalSystem.Web.csproj", "{BF4A5244-E149-450F-9178-49C56B1F4B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE41BE8-794C-40CD-8002-C35FFB2D62CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE41BE8-794C-40CD-8002-C35FFB2D62CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE41BE8-794C-40CD-8002-C35FFB2D62CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE41BE8-794C-40CD-8002-C35FFB2D62CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1713AE89-BA37-4874-AB84-431309DECEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1713AE89-BA37-4874-AB84-431309DECEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1713AE89-BA37-4874-AB84-431309DECEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1713AE89-BA37-4874-AB84-431309DECEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0921C0-9EC6-447E-BC9B-888E4A225C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0921C0-9EC6-447E-BC9B-888E4A225C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0921C0-9EC6-447E-BC9B-888E4A225C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0921C0-9EC6-447E-BC9B-888E4A225C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4A5244-E149-450F-9178-49C56B1F4B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4A5244-E149-450F-9178-49C56B1F4B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4A5244-E149-450F-9178-49C56B1F4B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4A5244-E149-450F-9178-49C56B1F4B13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {674FDDAD-B83C-48BE-A084-710EF32C6B1F}
+	EndGlobalSection
+EndGlobal

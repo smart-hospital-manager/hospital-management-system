@@ -1,0 +1,75 @@
+﻿@model List<SmartHospitalSystem.Service.ViewModels.DepartmentViewModel>
+
+@{
+    ViewData["Title"] = "الأقسام الطبية";
+}
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
+
+<div class="container mt-4 mb-5">
+    <div class="sh-page-header d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div class="d-flex align-items-center gap-3">
+            <span class="sh-page-icon"><i class="bi bi-building"></i></span>
+            <div>
+                <h2>إدارة الأقسام الطبية</h2>
+                <p>الهيكل التنظيمي والتخصصات الطبية داخل المستشفى</p>
+            </div>
+        </div>
+        <a asp-action="Create" class="btn sh-btn-solid px-4 py-2">
+            <i class="bi bi-plus-circle-fill me-1"></i> إضافة قسم جديد
+        </a>
+    </div>
+
+    <div class="sh-table-card">
+        <div class="p-4">
+            <table id="departmentsTable" class="table table-hover text-center align-middle m-0" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>كود القسم</th>
+                        <th>اسم القسم</th>
+                        <th>الوصف الطبي</th>
+                        <th>تاريخ الإنشاء</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var dept in Model)
+                        {
+                            <tr>
+                                <td class="fw-bold text-muted">#@dept.Id</td>
+                                <td><span class="badge px-3 py-2" style="background:var(--sh-accent-soft); color:var(--sh-primary);"><i class="bi bi-building me-1"></i>@dept.Name</span></td>
+                                <td class="text-muted text-end" style="max-width: 300px;">@dept.Description</td>
+                                <td><i class="bi bi-calendar3 me-1 text-muted"></i>@dept.CreatedAt.ToString("yyyy-MM-dd")</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            @if (Model == null || !Model.Any())
+            {
+                <div class="sh-empty-state">
+                    <i class="bi bi-building"></i>
+                    <p class="mb-0">لا توجد أقسام مسجلة حالياً</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#departmentsTable').DataTable({
+                "language": {
+                    "url": "https://cdn.datatables.net/plug-ins/1.13.6/i18n/ar.json"
+                },
+                "pageLength": 5,
+                "lengthMenu": [5, 10, 25, 50]
+            });
+        });
+    </script>
+}

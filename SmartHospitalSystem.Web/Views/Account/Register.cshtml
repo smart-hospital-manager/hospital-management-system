@@ -1,0 +1,130 @@
+﻿@{
+    ViewData["Title"] = "إنشاء حساب جديد";
+}
+
+<style>
+    .register-container {
+        min-height: 80vh;
+        background: #ffffff;
+        border-radius: 24px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    }
+
+    .register-brand-side {
+        background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem;
+        position: relative;
+    }
+
+        .register-brand-side::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80') center/cover no-repeat;
+            opacity: 0.12; /* صورة خلفية طبية هادئة لغرفة عمليات رقمية */
+        }
+
+    .form-inputs-custom .form-control {
+        border: 2px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 0.75rem 1rem;
+        transition: all 0.3s ease;
+    }
+
+        .form-inputs-custom .form-control:focus {
+            border-color: #4fd1c5;
+            box-shadow: 0 0 0 4px rgba(79, 209, 197, 0.15);
+        }
+
+    .input-icon-group {
+        position: relative;
+    }
+
+        .input-icon-group i {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            color: #a0aec0;
+        }
+
+    .form-inputs-custom input {
+        padding-left: 45px !important;
+    }
+</style>
+
+<div class="container mt-4 mb-5" dir="rtl">
+    <div class="row register-container g-0">
+
+        <!-- 🎨 الجانب الأيسر (البنر الترحيبي والصورة الطبية) -->
+        <div class="col-lg-6 register-brand-side text-center text-lg-start d-none d-lg-flex">
+            <div class="position-relative z-1 p-4 w-100 text-center">
+                <i class="bi bi-shield-check text-info display-1 mb-4"></i>
+                <h2 class="fw-bold mb-3">انضم لمنظومة الرعاية الذكية</h2>
+                <p class="text-white-50 lead mb-0">خطوة واحدة تفصلك عن امتلاك صلاحيات إدارة العيادات، تنظيم جداول الأطباء، وحفظ بيانات المرضى بأحدث المعايير الطبية.</p>
+            </div>
+        </div>
+
+        <!-- 📝 الجانب الأيمن (فورم إنشاء الحساب الاحترافية) -->
+        <div class="col-lg-6 d-flex align-items-center bg-white p-4 p-md-5">
+            <div class="w-100 py-3">
+                <div class="mb-4 text-center text-lg-start">
+                    <h3 class="fw-bold text-dark mb-2">📝 إنشاء حساب جديد</h3>
+                    <p class="text-muted small">قم بتسجيل بياناتك لفتح لوحة تحكم المنظومة الطبية</p>
+                </div>
+
+                <form asp-action="Register" method="post" class="form-inputs-custom">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <!-- البريد الإلكتروني -->
+                    <div class="mb-3">
+                        <label class="form-label fw-bold text-secondary">البريد الإلكتروني</label>
+                        <div class="input-icon-group">
+                            <input type="email" name="email" class="form-control" placeholder="name@smarthospital.com" required />
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                    </div>
+
+                    <!-- كلمة المرور -->
+                    <div class="mb-3">
+                        <label class="form-label fw-bold text-secondary">كلمة المرور</label>
+                        <div class="input-icon-group">
+                            <input type="password" name="password" class="form-control" placeholder="••••••" required />
+                            <i class="bi bi-lock-fill"></i>
+                        </div>
+                    </div>
+
+                    <!-- تأكيد كلمة المرور -->
+                    <div class="mb-4">
+                        <label class="form-label fw-bold text-secondary">تأكيد كلمة المرور</label>
+                        <div class="input-icon-group">
+                            <input type="password" name="confirmPassword" class="form-control" placeholder="••••••" required />
+                            <i class="bi bi-lock-check-fill"></i>
+                        </div>
+                    </div>
+
+                    <!-- زر إنشاء الحساب -->
+                    <div class="d-grid mt-4">
+                        <button type="submit" class="btn btn-info btn-lg fw-bold text-dark py-3 rounded-3 shadow-sm">
+                            تسجيل الحساب والدخول المباشر <i class="bi bi-check-circle-fill ms-1"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="text-center mt-4">
+                    <span class="text-muted small">لديك حساب بالفعل؟</span>
+                    <a asp-action="Login" class="text-primary fw-bold small text-decoration-none ms-1">تسجيل الدخول من هنا</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

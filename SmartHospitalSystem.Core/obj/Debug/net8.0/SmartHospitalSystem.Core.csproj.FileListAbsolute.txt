@@ -1,0 +1,11 @@
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\bin\Debug\net8.0\SmartHospitalSystem.Core.deps.json
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\bin\Debug\net8.0\SmartHospitalSystem.Core.dll
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\bin\Debug\net8.0\SmartHospitalSystem.Core.pdb
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\obj\Debug\net8.0\SmartHospitalSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\obj\Debug\net8.0\SmartHospitalSystem.Core.AssemblyInfoInputs.cache
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\obj\Debug\net8.0\SmartHospitalSystem.Core.AssemblyInfo.cs
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\obj\Debug\net8.0\SmartHospitalSystem.Core.csproj.CoreCompileInputs.cache
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\obj\Debug\net8.0\SmartHospitalSystem.Core.dll
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\obj\Debug\net8.0\refint\SmartHospitalSystem.Core.dll
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\obj\Debug\net8.0\SmartHospitalSystem.Core.pdb
+D:\download_d\SmartHospitalSystem_UI_Updated\SmartHospitalSystem\SmartHospitalSystem.Core\obj\Debug\net8.0\ref\SmartHospitalSystem.Core.dll
